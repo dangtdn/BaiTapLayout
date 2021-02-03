@@ -14,10 +14,15 @@ export default class BT3ProductItem extends Component {
       </p>
     </div>
     <div className="card-footer">
-      <a href="#" className="btn btn-primary">Find Out More!</a>
+      <span style={{fontSize: 12, color: 'grey'}} className="fa fa-star checked" />
+      <span style={{fontSize: 12, color: 'grey'}} className="fa fa-star checked" />
+      <span style={{fontSize: 12, color: 'grey'}} className="fa fa-star checked" />
+      <span style={{fontSize: 12, color: 'silver'}} className="fa fa-star" />
+      <span style={{fontSize: 12, color: 'silver'}} className="fa fa-star" />
     </div>
   </div>
 </div>
+
 
 
         )
