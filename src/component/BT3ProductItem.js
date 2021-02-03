@@ -5,10 +5,11 @@ export default class BT3ProductItem extends Component {
         return (
             <div>
   <div className="card h-100">
-    <img className="card-img-top" src="http://placehold.it/500x325" alt />
+    <img className="card-img-top" src="http://placehold.it/700x400" alt />
     <div className="card-body">
-      <h4 className="card-title">Card title</h4>
+      <h4 className="card-title text-primary">Item</h4>
       <p className="card-text">
+        <span className='font-weight-bold'>$24.99</span><br/>
         Lorem ipsum dolor sit amet, consectetur adipisicing
         elit. Sapiente esse necessitatibus neque.
       </p>
